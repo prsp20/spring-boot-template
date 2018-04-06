@@ -1,0 +1,6 @@
+rootProject.name = 'spring-boot-template'
+
+include 'application'
+include 'web'
+include 'service'
+include 'integration-test'

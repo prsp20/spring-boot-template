@@ -1,0 +1,5 @@
+group 'com.prakass'
+
+dependencies {
+    compile project(':service')
+}

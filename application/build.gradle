@@ -1,0 +1,11 @@
+group 'com.prakass'
+apply plugin: 'org.springframework.boot'
+
+springBoot {
+    mainClassName = "com.prakass.noteservice.Application"
+}
+
+dependencies {
+    compile project(':service')
+    compile project(':web')
+}
